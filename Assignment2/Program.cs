@@ -33,6 +33,6 @@ namespace Assignment2
             } while (!game.Yahtzee());
             Console.WriteLine("Number of attempts needed (Yahtzee): {0}", nrOfAttempts);
         }
-        }
     }
+}
 

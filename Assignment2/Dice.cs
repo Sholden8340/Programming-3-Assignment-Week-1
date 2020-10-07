@@ -8,7 +8,7 @@ namespace Assignment2
 {
     class Dice
     {
-        public int Value { get; set; }
+        public int Value { get; private set; }
 
         private Random rng;
 
@@ -16,7 +16,6 @@ namespace Assignment2
         {
             this.rng = rng;
         }
-
 
         public void Throw()
         {
@@ -27,17 +26,5 @@ namespace Assignment2
         {
             Console.Write(" " + Value);
         }
-
-        public int Getvalue()
-        {
-            return Value;
-        }
-
-        public void SetValue(int value)
-        {
-            this.Value = value;
-        }
     }
-
-
 }
